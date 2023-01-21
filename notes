@@ -1,0 +1,34 @@
+1.npm init- package.json installed by this command.
+
+2.npm i express-node_modules created by this command.
+
+3.Next we want to create the main file index.js.
+
+4.Next we need to import express in index.js
+
+5.install cors. npm i cors
+  then app.use(cors({
+    origin:'http://localhost:4200'
+}))
+
+6.install mongoose - npm i mongoose
+
+7.then created dataservice and db.js file inside services.
+  - next inside db.js install mongoose
+  -define connection string.
+  -created model of collection in db.
+  -then export the created model. - so only we can use this schema any where.
+
+8.Next install import db inside dataservice.
+
+9.created a function getproducts to get the data from db.
+
+10.then exported.
+
+11.Next in index after declaring express want to parse json data by the request-app.use(express.json())
+
+12.imported ds-const dataService=require('./services/dataService')
+   -ds :logic is here.
+   -index:request is gone from here.  frontend and backend connection is also in index.
+   
+
